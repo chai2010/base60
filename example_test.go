@@ -1,16 +1,8 @@
-# base60天干地支编码
+// Copyright 2018 chaishushan@gmail.com. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
 
-- godoc: https://godoc.org/github.com/chai2010/base60
-
-## Install
-
-1. go get github.com/chai2010/base60
-1. go run hello.go
-
-## Example
-
-```go
-package main
+package base60_test
 
 import (
 	"fmt"
@@ -18,7 +10,7 @@ import (
 	"github.com/chai2010/base60"
 )
 
-func main() {
+func Example() {
 	s0 := base60.Encode([]byte("你好"))
 	fmt.Println(s0)
 
@@ -29,10 +21,3 @@ func main() {
 	// 乙丑癸巳甲寅己亥丁卯甲申丁未甲午己巳
 	// 你好
 }
-```
-
-## BUGS
-
-Report bugs to <chaishushan@gmail.com>.
-
-Thanks!
