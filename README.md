@@ -1,3 +1,8 @@
+- *赞助 BTC: 1Cbd6oGAUUyBi7X7MaR4np4nTmQZXVgkCW*
+- *赞助 ETH: 0x623A3C3a72186A6336C79b18Ac1eD36e1c71A8a6*
+
+----
+
 # base60天干地支编码
 
 - godoc: https://godoc.org/github.com/chai2010/base60
