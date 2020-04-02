@@ -2,4 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package github.com/chai2010/base60
+module github.com/chai2010/base60
+
+go 1.14
+
